@@ -10,7 +10,7 @@ var client = new TinEye('https://api.tineye.com/rest/', public_key, private_key)
 
 app.get("/", function(req, res){
 	
-	res.send('Please enter a parameter like this: /offset=5 : or any number you like');
+	res.send('To get an image url enter a parameter like this: /offset=5 : or any number you like');
 	
 });
 
